@@ -1,0 +1,32 @@
+/* Cleansed Fact Internet Sales Table*/
+SELECT 
+  [ProductKey], 
+  [OrderDateKey], 
+  [DueDateKey], 
+  [ShipDateKey], 
+  [CustomerKey], 
+  --,[PromotionKey]
+  --,[CurrencyKey]
+  --,[SalesTerritoryKey]
+  --,[SalesOrderNumber]
+  --,[SalesOrderLineNumber]
+  --,[RevisionNumber]
+  --,[OrderQuantity]
+  --,[UnitPrice]
+  --,[ExtendedAmount]
+  --,[UnitPriceDiscountPct]
+  --,[DiscountAmount]
+  --,[ProductStandardCost] 
+  [TotalProductCost], 
+  [SalesAmount]
+  --,[TaxAmt]
+  --,[Freight]
+  --,[CarrierTrackingNumber]
+  --,[CustomerPONumber]
+  --[OrderDate] 
+  --,[DueDate]
+  --,[ShipDate]
+FROM 
+  [AdventureWorksDW2019].[dbo].[FactInternetSales] 
+WHERE 
+  YEAR(OrderDate) >= YEAR(GETDATE()) -2 -- ensures we compare sales with 2 previous years from day of extraction
