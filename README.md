@@ -1,4 +1,11 @@
 # Task
+- Users: sales teams
+- Point-person: John (Data Representative)
+- Necessary systems: Microsoft SQL, Tableau
+- Other Relevant Info: Budgets have been delivered in Excel for 2021
+
+** Summary of users requirements **
+
 | No # | Role | Request / Demand | So that I (user value) |
 | ---- | ---- | ---- | ---- |
 | 1 | Sales Manager | To get a dashboard overview of internet sales | Can follow better which customers and products sells the best |
