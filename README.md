@@ -1,6 +1,6 @@
 # Task
 | No # | Role | Request / Demand | So that I (user value) |
-| --- | --- | --- | --- |
+| ---- | ---- | ---- | ---- |
 | 1 | Sales Manager | To get a dashboard overview of internet sales | Can follow better which customers and products sells the best |
 | 2 | Sales Representative | A detailed overview of Internet Sales per Customers | Can follow up my customers who buys the most and who we can sell more to |
 | 3 | Sales Representative | A detailed overview of Internet Sales per Products | Can follow up my Products that sells the most |
