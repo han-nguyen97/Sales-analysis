@@ -4,7 +4,7 @@
 - Necessary systems: Microsoft SQL, Tableau
 - Other Relevant Info: Budgets have been delivered in Excel for 2021
 
-** Summary of users requirements **
+**Requirements summary**
 
 | No # | Role | Request / Demand | So that I (user value) |
 | ---- | ---- | ---- | ---- |
